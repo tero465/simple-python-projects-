@@ -1,0 +1,19 @@
+{
+    "name":"add blocker",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "permission":[
+        "declerativeNetRequest"
+    ],
+    "decelerative_net_request":{
+        "rule_resources":[
+            {
+                "id":"rule_set1",
+                "enabled":"true",
+                "path":"rules.json"
+            }
+        ]
+    }
+
+
+}
